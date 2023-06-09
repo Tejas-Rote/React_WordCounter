@@ -1,0 +1,45 @@
+.para {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: .5rem 0rem;
+}   
+
+h1, textarea {
+    margin: .5rem 0rem;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+
+
+#words {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    border: 1px solid black;
+    padding: .5rem;
+    min-width: 500px;
+    min-height: 150px;
+    font-size: 18px;
+}
+
+.text {
+    margin: .5rem 0rem;
+    font-family: var(--font-family);
+    font-size: 18px;
+
+}
